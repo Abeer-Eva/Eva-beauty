@@ -1,0 +1,389 @@
+
+
+html{
+    position: relative;
+    }
+    header
+    {
+    position: absolute;
+    width: 1414px;
+    height: 92px;
+    left: 0px;
+    top: 0px;
+    background: #131313;
+    border: 1px solid #131313;
+    }
+    .logo{
+    position: relative;
+    background: url(./image/logo\ 3\ \(1\).png) no-repeat;
+    width: 224px;
+    height: 184px;
+    left: 587px;
+    top: 0px;
+    object-position: center;
+    text-indent: -9999px; 
+    }
+    ul#menu{
+        z-index: 1;
+    }
+    ul#menu li{
+    
+    text-decoration: none;   
+    display:inline;
+    float: left;;
+    width: 180px;
+    height: 27px;
+    margin-left:5px;
+    font-weight: 700;
+    position: fixed;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    top: 97px;
+    left: 50px;
+    z-index: 1;
+    color: black;
+    
+    }
+    
+    ul#menu li.home{
+        left: 710px;
+    }
+    ul#menu li.parfym{
+        left: 770px;
+    }
+    ul#menu li.lip{
+        left: 830px;
+    }
+    
+    
+    
+    
+.menu >li {
+    display:inline;
+    float:left;
+    margin-left:5px;
+    font-weight: 700;
+    position: fixed;
+    width: 167px;
+    height: 57px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color:grey;
+    top: 93px;
+    left: 40px;
+}
+    .grid-container{
+    position: absolute;
+    width: 1414px;
+    height:900px;
+    left: 0px;
+    top: 93px;
+    background:url(./image/body\ 1.jpg) no-repeat;
+    width: 1440px;
+    height:900px;
+    object-position: center;
+    object-fit: contain;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-indent: -9999px;
+    }
+    .grid-container1{
+    
+    position: absolute;
+    width: 1414px;
+    height: 900px;
+    left: 0px;
+    top: 82px;
+    background-color: black;
+    object-position: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-indent: -9999px;
+    
+    }
+    .rek1{
+    background: url(./image/rek1.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 936px;
+    height: 428px;
+    left: 252px;
+    top: 144px;
+    text-indent: -9999px;
+    }
+    .parf1{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 30px;
+    top: 650px;
+    background: url(./image/parf1.png) no-repeat;
+    background-size: cover;
+    text-indent: -9999px;
+    }
+    .parf2{
+    position: absolute; 
+    width: 300px;
+    height: 300px;
+    left: 370px;
+    top: 650px;
+    background: url(./image/parf2.png) no-repeat;
+    background-size: cover;
+    text-indent: -9999px;
+    }
+    .parf3{
+    position: absolute; 
+    width: 300px;
+    height: 300px;
+    left: 720px;
+    top:650px;
+    background: url(./image/parf3.png) no-repeat;
+    background-size: cover;
+    text-indent: -9999px;
+    }
+    .parf4{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left:  1060px;
+    top: 650px;
+    background: url(./image/parf4.png) no-repeat;
+    background-size: cover;
+    text-indent: -9999px;
+    
+    }
+    .rek2{
+    background: url(./image/rek2.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 936px;
+    height: 328px;
+    left: 252px;
+    top: 144px;
+    text-indent: -9999px;
+    }
+    
+    .lip1{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 30px;
+    top: 650px;
+    background: url(./image/lip1.png) no-repeat;
+    background-size: cover;
+    text-indent: -9999px;
+    }
+    .lip2{
+    position: relative;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    left: 370px;
+    top: 640px;
+    background: url(./image/lip2.jpg) no-repeat;
+    text-indent: -9999px;
+    }
+    .lip3{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 720px;
+    top:650px;
+    background-size: cover;
+    text-indent: -9999px;
+    background: url(./image/lip3.jpg) no-repeat;
+    }
+    .lip4{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 1060px;
+    top:650px;
+    background-size: cover;
+    background: url(./image/lip4.jpg) no-repeat;
+    text-indent: -9999px;
+    
+    }
+    /*mobile responsive  ----- */
+    @media (min-width: 840px) { body {font-size:1rem;} } 
+    @media  screen and (max-width: 1060px)
+    {
+
+header
+{
+width: 412px;
+height: 82px;
+}
+.logo{
+position: relative;
+background: url(./image/logo\ 3\ \(1\).png) no-repeat;
+width: 174px;
+height: 104px;
+top: 2px;
+left: 97px;
+object-position: center;
+text-indent: -9999px; 
+}
+ul#menu li{
+position: absolute;
+width: 278px;
+height: 45px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+border: 1px solid #000000;
+text-decoration: none;   
+display:inline;
+margin-left:5px;
+font-weight: 700;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+}
+
+ul#menu li.home{
+    left: 10px;
+}
+ul#menu li.parfym{
+    left: 70px;
+}
+ul#menu li.lip{
+    left: 130px;
+}
+ul#menu li.olika{
+    left: 210px;
+}
+ul#menu li a {
+    text-decoration:none;
+    cursor: pointer;
+}
+.grid-container{
+position: absolute;
+width: 414px;
+height: 815px;
+left: 0px;
+top: 82px;
+background:url(./image/body.png);
+object-position: center;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+text-indent: -9999px;
+}
+.grid-container1{
+
+position: absolute;
+width: 414px;
+height: 815px;
+left: 0px;
+top: 82px;
+background-color: black;
+object-position: center;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+text-indent: -9999px;
+
+}
+.rek1{
+background: url(./image/rek1.png) no-repeat;
+position: absolute;
+width: 309px;
+height: 152px;
+left: 61px;
+top: 116px;
+text-indent: -9999px;
+}
+.parf1{
+position: absolute;
+width: 180px;
+height: 194px;
+left: 36px;
+top: 315px;
+background: url(./image/parf1.png);
+z-index: 1;
+text-indent: -9999px;
+}
+.parf2{
+    position: absolute;
+width: 180px;
+height: 194px;
+left: 178px;
+top: 411px;
+background: url(./image/parf2.png);
+text-indent: -9999px;
+}
+.parf3{
+    position: absolute;
+width: 180px;
+height: 194px;
+left: 36px;
+top:608px;
+;
+background: url(./image/parf3.png);
+z-index: 1;
+text-indent: -9999px;
+}
+.parf4{
+position: absolute;
+width: 180px;
+height: 194px;
+left:  178px;
+top: 677px;
+background: url(./image/parf4.png);
+text-indent: -9999px;
+
+}
+.rek2{
+background: url(./image/rek2.png) no-repeat;
+text-indent: -9999px;
+position: absolute;
+width: 309px;
+height: 152px;
+left: 61px;
+top: 116px;
+}
+
+.lip1{
+position: absolute;
+width: 180px;
+height: 194px;
+left: 36px;
+top: 315px;
+background: url(./image/lip1.png);
+text-indent: -9999px;
+z-index: 1;
+}
+.lip2{
+position: absolute;
+width: 180px;
+height: 194px;
+left: 178px;
+top: 411px;
+background: url(./image/lip2.jpg);
+text-indent: -9999px;
+}
+.lip3{
+position: absolute;
+width: 180px;
+height: 194px;
+left: 36px;
+top:608px;
+text-indent: -9999px;
+background: url(./image/lip3.jpg);
+z-index: 1;
+}
+.lip4{
+position: absolute;
+width: 180px;
+height: 194px;
+left:  178px;
+top: 677px;
+background: url(./image/lip4.jpg);
+text-indent: -9999px;
+
+}
