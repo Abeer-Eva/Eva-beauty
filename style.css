@@ -1,220 +1,78 @@
 
-
-html{
-    position: relative;
-    }
-    header
-    {
-    position: absolute;
-    width: 1440px;
-    height: 92px;
-    left: 0px;
-    top: 0px;
-    background: #131313;
-    border: 1px solid #131313;
-    }
-    .logo{
-    position: relative;
-    background: url(./image/logo\ 3\ \(1\).png) no-repeat;
-    width: 224px;
-    height: 184px;
-    left: 587px;
-    top: 0px;
-    object-position: center;
-    text-indent: -9999px; 
-    }
-    
-    
+    /*mobile responsive  ----- */
+   
+        html{
+            max-width: 1440px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+      header{
+          
+        top: 0;
+background-color: black;
+width: 414px;
+height: 92px;
+left: 0px;
+      }  
+      
+      body{
+        top:10px;  
+        position:absolute;
+        width: 414px;
+         
+        background-color: black;
+      }
    /* Listan <UL> med knapparna */
 ul#meny {
-margin: 30px 10px 30px 0;
-padding: 0;
-float: left;
-left: 30px;
-top: 90px;
-
-}
+    margin: 25px 10px 25px 0;
+    padding: 0;
+    float: left;
+    left: 30px;
+    top: 104px;
+    
+    }
 
 /* Listelementen <LI> med knapparna */
 ul#meny li {
-display: grid;
-list-style: none;
-}
-
-ul#meny li a {   
-margin: 5px 5px 5px 5px;
-padding: 0px 25px 0px 25px;
-text-align: center;
-white-space: nowrap;
-line-height: 20px;
-font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
-font-size: 16px;
-color: rgb(247, 245, 241);
-border-radius: 5px;
-border: 1px solid rgb(216, 233, 203);
-background: rgb(40, 41, 40);
-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
-z-index: 2;
-}
-
-#meny li a:hover {
-cursor: pointer;
-background: rgba(178,232,139,1);
-color: rgba(0,0,0,1);
-}
-
-#meny a:link, #meny a:visited {
-color: rgba(255,255,255,1);
-text-decoration: none;
-}
-
-#meny a:active {
-color: rgba(250,191,12,1);
-}
-
-#meny a#current {
-background: rgba(85,137,48,1);
-}
-    .grid-container{
-    position: absolute;
-    left: 0px;
-    top: 93px;
-    background:url(./image/body\ 1.jpg) no-repeat;
-    width: 1440px;
-    height:900px;
-    object-position: center;
-    object-fit: contain;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    text-indent: -9999px;
-    
-    }
-    .grid-container1{
-    
-    position: absolute;
-    width: 1414px;
-    height: 900px;
-    left: 0px;
-    top: 82px;
-    background-color: black;
-    object-position: center;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    text-indent: -9999px;
-  
-    
-    }
-    .rek1{
-    background: url(./image/rek1.png) no-repeat;
-    background-size: cover;
-    position: absolute;
-    width: 936px;
-    height: 428px;
-    left: 252px;
-    top: 144px;
-    text-indent: -9999px;
-    }
-    .parf1{
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    left: 30px;
-    top: 650px;
-    background: url(./image/parf1.png) no-repeat;
-    background-size: cover;
-    text-indent: -9999px;
-    }
-    .parf2{
-    position: absolute; 
-    width: 300px;
-    height: 300px;
-    left: 370px;
-    top: 650px;
-    background: url(./image/parf2.png) no-repeat;
-    background-size: cover;
-    text-indent: -9999px;
-    }
-    .parf3{
-    position: absolute; 
-    width: 300px;
-    height: 300px;
-    left: 720px;
-    top:650px;
-    background: url(./image/parf3.png) no-repeat;
-    background-size: cover;
-    text-indent: -9999px;
-    }
-    .parf4{
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    left:  1060px;
-    top: 650px;
-    background: url(./image/parf4.png) no-repeat;
-    background-size: cover;
-    text-indent: -9999px;
-    
-    }
-    .rek2{
-    background: url(./image/rek2.png) no-repeat;
-    background-size: cover;
-    position: absolute;
-    width: 936px;
-    height: 328px;
-    left: 252px;
-    top: 144px;
-    text-indent: -9999px;
+    display: grid;
+    list-style: none;
     }
     
-    .lip1{
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    left: 30px;
-    top: 650px;
-    background: url(./image/lip1.png) no-repeat;
-    object-position: bottom;
-    text-indent: -9999px;
+    ul#meny li a {   
+    margin: 5px 5px 5px 5px;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 20px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(247, 245, 241);
+    border-radius: 5px;
+    border: 1px solid rgb(216, 233, 203);
+    background: rgb(40, 41, 40);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+    z-index: 2;
     }
-    .lip2{
-    position: relative;
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-    left: 370px;
-    top: 640px;
-    background: url(./image/lip2.jpg) no-repeat;
-    text-indent: -9999px;
-    }
-    .lip3{
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    left: 720px;
-    top:650px;
-    background-size: cover;
-    text-indent: -9999px;
-    background: url(./image/lip3.jpg) no-repeat;
-    }
-    .lip4{
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    left: 1060px;
-    top:650px;
-    background-size: cover;
-    background: url(./image/lip4.jpg) no-repeat;
-    text-indent: -9999px;
     
+    #meny li a:hover {
+    cursor: pointer;
+    background: rgba(178,232,139,1);
+    color: rgba(0,0,0,1);
     }
-    /*mobile responsive  ----- */
-    @media (min-width: 840px) { body {font-size:1rem;} } 
-    @media  screen and (max-width: 1060px)
-    {
-
-header
-{
-width: 412px;
-height: 82px;
-}
+    
+    #meny a:link, #meny a:visited {
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    }
+    
+    #meny a:active {
+    color: rgba(250,191,12,1);
+    }
+    
+    #meny a#current {
+    background: rgba(85,137,48,1);
+    }
 .logo{
 position: relative;
 background: url(./image/logo\ 3\ \(1\).png) no-repeat;
@@ -225,12 +83,34 @@ left: 97px;
 object-position: center;
 text-indent: -9999px; 
 }
+button{
+    padding: 0.1rem 0.5rem;
+    margin: 7.5rem 0 0;
+    border: ghostwhite solid;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    justify-content: left;
+}
+.foo{
+    display: flex;
+    margin: auto;
+    background-color: honeydew;
+    padding: 0.5rem 0.rem;
+}
+.foo>p{
+    text-align: center;
+    
+    font-size: 1rem;
+}
 .grid-container{
+display: flex;
+justify-content: center;
+top: 90px;
 position: absolute;
-width: 412px;
+width: 414px;
 height: 815px;
-left: 0px;
-top: 82px;
 background:url(./image/body.png)no-repeat;
 object-position: center;
 border: 1px solid #000000;
@@ -238,27 +118,30 @@ box-sizing: border-box;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 text-indent: -9999px;
 }
-.grid-container1{
-
+.grid-container2{
+display:grid;
 position: absolute;
 width: 414px;
 height: 815px;
-left: 0px;
-top: 82px;
 background-color: black;
 object-position: center;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 text-indent: -9999px;
 
+
 }
 .rek1{
+display: flex;
 background: url(./image/rek1.png) no-repeat;
 position: absolute;
 width: 309px;
 height: 152px;
-left: 61px;
-top: 116px;
 text-indent: -9999px;
+left: 102px;
+}
+.flex-container{display: flex;
+    justify-content: center;
+
 }
 .parf1{
 position: absolute;
@@ -285,7 +168,6 @@ width: 180px;
 height: 194px;
 left: 36px;
 top:608px;
-;
 background: url(./image/parf3.png);
 z-index: 1;
 text-indent: -9999px;
@@ -300,17 +182,24 @@ background: url(./image/parf4.png);
 text-indent: -9999px;
 
 }
-.rek2{
+.grid-container-lip{
+    display: flex;
+    justify-content: center;
+}
+
+.grid1 { 
+display: flex;
+
 background: url(./image/rek2.png) no-repeat;
 text-indent: -9999px;
 position: absolute;
 width: 309px;
 height: 152px;
-left: 61px;
-top: 116px;
+left:102px;
+text-indent: -9999px;
 }
 
-.lip1{
+.flex-item1{
 position: absolute;
 width: 180px;
 height: 194px;
@@ -320,7 +209,7 @@ background: url(./image/lip1\ 2.png);
 text-indent: -9999px;
 z-index: 1;
 }
-.lip2{
+.flex-item2{
 position: absolute;
 width: 180px;
 height: 194px;
@@ -329,7 +218,7 @@ top: 411px;
 background: url(./image/lip2.jpg);
 text-indent: -9999px;
 }
-.lip3{
+.flex-item3{
 position: absolute;
 width: 180px;
 height: 194px;
@@ -339,7 +228,7 @@ text-indent: -9999px;
 background: url(./image/lip3.jpg);
 z-index: 1;
 }
-.lip4{
+.flex-item4{
 position: absolute;
 width: 180px;
 height: 194px;
@@ -349,4 +238,17 @@ background: url(./image/lip4.jpg);
 text-indent: -9999px;
 
 }
+    @media(main-width :700px){
+
+      header{
+          display: flex;
+          height: 100%;
+      }
+      .flex-container{
+          display: inline-block;
+          height: 100%;
+      }
+      img{
+          height: 100vh;
+      }
     }
