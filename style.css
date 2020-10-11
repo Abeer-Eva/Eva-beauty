@@ -164,11 +164,11 @@ text-indent: -9999px;
 }
 .parf3{
     position: absolute;
-width: 180px;
+width: 50%;
 height: 194px;
 left: 36px;
 top:608px;
-background: url(./image/parf3.png);
+background: url(./image/parf3.png) no-repeat;
 z-index: 1;
 text-indent: -9999px;
 }
@@ -215,7 +215,7 @@ width: 180px;
 height: 194px;
 left: 178px;
 top: 411px;
-background: url(./image/lip2.jpg);
+background: url(./image/lip2.jpg) no-repeat;
 text-indent: -9999px;
 }
 .flex-item3{
@@ -225,7 +225,7 @@ height: 194px;
 left: 36px;
 top:608px;
 text-indent: -9999px;
-background: url(./image/lip3.jpg);
+background: url(./image/lip3.jpg) no-repeat;
 z-index: 1;
 }
 .flex-item4{
@@ -234,21 +234,22 @@ width: 180px;
 height: 194px;
 left:  178px;
 top: 677px;
-background: url(./image/lip4.jpg);
+background: url(./image/lip4.jpg) no-repeat;
 text-indent: -9999px;
 
 }
-    @media(main-width :700px){
+/*laptop responsive  ----- */
+ 
+@media  screen and (min-width: 960px)
+{
 
       header{
           display: flex;
           height: 100%;
       }
       .flex-container{
-          display: inline-block;
-          height: 100%;
+          display: grid;
+          grid-template-columns: repeat(4,1fr);
+          gap: 20px;
       }
-      img{
-          height: 100vh;
-      }
-    }
+    } 
