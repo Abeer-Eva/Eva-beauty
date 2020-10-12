@@ -1,15 +1,13 @@
 
-    /*mobile responsive  ----- */
+    /*mobile-first responsive  ----- */
    
         html{
-            max-width: 1440px;
             display: flex;
             justify-content: center;
-            align-items: center;
+           
         }
       header{
-          
-        top: 0;
+top: 0;
 background-color: black;
 width: 414px;
 height: 92px;
@@ -17,10 +15,8 @@ left: 0px;
       }  
       
       body{
-        top:10px;  
+        top:0px;  
         position:absolute;
-        width: 414px;
-         
         background-color: black;
       }
    /* Listan <UL> med knapparna */
@@ -121,7 +117,7 @@ text-indent: -9999px;
 .grid-container2{
 display:grid;
 position: absolute;
-width: 414px;
+width: 50%;
 height: 815px;
 background-color: black;
 object-position: center;
@@ -138,10 +134,6 @@ width: 309px;
 height: 152px;
 text-indent: -9999px;
 left: 102px;
-}
-.flex-container{display: flex;
-    justify-content: center;
-
 }
 .parf1{
 position: absolute;
@@ -240,16 +232,31 @@ text-indent: -9999px;
 }
 /*laptop responsive  ----- */
  
-@media  screen and (min-width: 960px)
+@media  screen and (min-width: 1200px)
 {
+    body{
+        background-color: cadetblue;
+    }
+   .grid-container2{
+    width: 1440px ;
+    
+}
+header{
+    width: 1440px;
+}
+ul#meny {
+    
+    display: flex;
+    justify-items: center;
+    
+    
+    }
+    ul#meny li {
+        display: inline-flex;
+        
 
-      header{
-          display: flex;
-          height: 100%;
-      }
-      .flex-container{
-          display: grid;
-          grid-template-columns: repeat(4,1fr);
-          gap: 20px;
-      }
-    } 
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
