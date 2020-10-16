@@ -2,7 +2,7 @@
     /*mobile-first responsive  ----- */
    
         html{
-            display: flex;
+           
             justify-content: center;
            
         }
@@ -13,8 +13,14 @@ width: 414px;
 height: 92px;
 left: 0px;
       }  
+      h1{
+          display: flex;
+          justify-content: flex-start;
+          margin: 40px 5px 0  0;
+      }
       
       body{
+        left: 0px;  
         top:0px;  
         position:absolute;
         background-color: black;
@@ -80,24 +86,32 @@ object-position: center;
 text-indent: -9999px; 
 }
 button{
-    padding: 0.1rem 0.5rem;
-    margin: 7.5rem 0 0;
-    border: ghostwhite solid;
-    display: inline-block;
+    position: relative;
+    padding: 0.4rem 0.5rem;
+    margin: 5.5rem 0 0;
+    border: black solid;
+    border-radius: 4px;
+    
+
+}
+button a{
     text-decoration: none;
     color: #333;
-    display: flex;
-    justify-content: left;
+    font-size: 12px;
+    font-weight: 600;
+
 }
 .foo{
-    display: flex;
-    margin: auto;
+    justify-content: center;
+    align-content: flex-end;
     background-color: honeydew;
-    padding: 0.5rem 0.rem;
+    padding: 0 0.1rem;
+    margin: 51rem 0 0;
+    background-color: rgb(253, 244, 241);
+    left: 20%;
 }
 .foo>p{
     text-align: center;
-    
     font-size: 1rem;
 }
 .grid-container{
@@ -131,7 +145,7 @@ display: flex;
 background: url(./image/rek1.png) no-repeat;
 position: absolute;
 width: 309px;
-height: 152px;
+height: 30%;
 text-indent: -9999px;
 left: 102px;
 }
@@ -197,7 +211,8 @@ width: 180px;
 height: 194px;
 left: 36px;
 top: 315px;
-background: url(./image/lip1\ 2.png);
+background: url(./image/lip1\ 2.jpg) no-repeat;
+object-position: center;
 text-indent: -9999px;
 z-index: 1;
 }
@@ -230,13 +245,24 @@ background: url(./image/lip4.jpg) no-repeat;
 text-indent: -9999px;
 
 }
+.korg>img{
+background: url(./image/Frame\ 1.jpg)no-repeat;
+position: absolute;
+width: 309px;
+height: 152px;
+text-indent: -9999px;
+left: 104px;
+}
+h1{
+    
+    color:white ;
+    
+}
 /*laptop responsive  ----- */
  
-@media  screen and (min-width: 1200px)
+@media  screen and (min-width: 980px){
+@media screen and (max-width: 1440px)
 {
-    body{
-        background-color: cadetblue;
-    }
    .grid-container2{
     width: 1440px ;
     
@@ -245,18 +271,119 @@ header{
     width: 1440px;
 }
 ul#meny {
-    
-    display: flex;
-    justify-items: center;
-    
-    
+    margin-left: 38%;
+    margin-top: 0.1%;
     }
     ul#meny li {
-        display: inline-flex;
-        
-
+        display:inline-flex;
+     
 }
 .logo{
+    left: 43%;
+    
+}
+
+.grid-container2{
+   
+    margin-top: 3%;
+    
+    
+}
+.grid1{
+    background: url(./image/rek2\(2\).jpg) no-repeat;
+    width: 100%;
+    height: 100%;
+    left: 20%;
+}
+
+.grid-container{
+    align-self: stretch;
+    background: url(./image/body\ 1.jpg);
     display: flex;
-    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+.rek1{
+    left: 18%;
+    width: 100%;
+    height: 100%;
+    background: url(./image/rek1\ \(2\).jpg) no-repeat;
+
+}
+.flex-item1{
+    background: url(./image/lip1\ 1.jpg) no-repeat;
+    width: 100%;
+    height: 200%;
+    top: 608px;
+    
+}
+.flex-item2{
+    background: url(./image/lip2\ 2.jpg) no-repeat;
+    width: 100%;
+    height: 200%;
+    top: 608px;
+    left: 27%;
+
+}
+.flex-item3{
+    background: url(./image/lip3\ 1.jpg) no-repeat;
+    width: 100%;
+    height: 200%;
+    left: 52%;
+
+}
+.flex-item4{
+    background: url(./image/lip4.jpg) no-repeat;
+    width: 100%;
+    height: 200%;
+    left: 76%;
+    top: 608px;
+}
+.parf1{
+    background: url(./image/parf1\ 1.jpg) no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 608px;
+    left: 5%;
+}
+.parf2{
+    background: url(./image/parf2\ 1.jpg) no-repeat;
+    width: 100%;
+    height: 170%;
+    left: 28%;
+    top: 608px;
+}
+.parf3{
+   background: url(./image/parf3\ 1.jpg) no-repeat;
+    width: 140%;
+    height: 200%;
+    left: 52%;
+   
+}
+.parf4{
+    background: url(./image/parf4\ 1.jpg) no-repeat;
+    width: 100%;
+    height: 250%;
+    left: 75%;
+    top: 608px;
+}
+button{
+    margin: 10.5rem 0 0;
+}
+button a{
+    font-size: 16px;
+    
+}
+.korg>img{
+    background: url(./image/Frame\ 4.jpg) no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+    
+
+
+
+}
 }
