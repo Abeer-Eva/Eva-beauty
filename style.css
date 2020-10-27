@@ -16,21 +16,21 @@ left: 0px;
       h1{
           display: flex;
           justify-content: flex-start;
-          margin: 40px 5px 0  0;
+        margin-right: 10rem;
       }
       
       body{
         left: 0px;  
         top:0px;  
-        position:absolute;
+        position:relative;
         background-color: black;
       }
    /* Listan <UL> med knapparna */
 ul#meny {
-    margin: 25px 10px 25px 0;
+    margin: 0px 0px 0px 0px;
     padding: 0;
-    float: left;
-    left: 30px;
+    
+    left: 1px;
     top: 104px;
     
     }
@@ -43,7 +43,7 @@ ul#meny li {
     
     ul#meny li a {   
     margin: 5px 5px 5px 5px;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 15px 0px 15px;
     text-align: center;
     white-space: nowrap;
     line-height: 20px;
@@ -76,17 +76,14 @@ ul#meny li {
     background: rgba(85,137,48,1);
     }
 .logo{
-position: relative;
 background: url(./image/logo\ 3\ \(1\).png) no-repeat;
 width: 174px;
 height: 104px;
-top: 2px;
-left: 97px;
-object-position: center;
 text-indent: -9999px; 
+
 }
 button{
-    position: relative;
+   
     padding: 0.4rem 0.5rem;
     margin: 5.5rem 0 0;
     border: black solid;
@@ -106,20 +103,19 @@ button a{
     align-content: flex-end;
     background-color: honeydew;
     padding: 0 0.1rem;
-    margin: 51rem 0 0;
+    margin: 1rem 0 0;
     background-color: rgb(253, 244, 241);
     left: 20%;
+    
 }
 .foo>p{
     text-align: center;
     font-size: 1rem;
 }
 .grid-container{
-display: flex;
-justify-content: center;
-top: 90px;
-position: absolute;
-width: 414px;
+
+display: grid;
+max-width: 414px;
 height: 815px;
 background:url(./image/body.png)no-repeat;
 object-position: center;
@@ -130,9 +126,8 @@ text-indent: -9999px;
 }
 .grid-container2{
 display:grid;
-position: absolute;
-width: 50%;
-height: 815px;
+width: 90%;
+height: 175px;
 background-color: black;
 object-position: center;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -143,104 +138,98 @@ text-indent: -9999px;
 .rek1{
 display: flex;
 background: url(./image/rek1.png) no-repeat;
-position: absolute;
-width: 309px;
-height: 30%;
+background-position: center;
+height: 100%;
 text-indent: -9999px;
-left: 102px;
+left: 10%;
 }
 .parf1{
-position: absolute;
+
 width: 180px;
 height: 194px;
-left: 36px;
-top: 315px;
+
 background: url(./image/parf1.png);
 z-index: 1;
 text-indent: -9999px;
 }
 .parf2{
-    position: absolute;
+ 
+justify-self: self-end;   
 width: 180px;
 height: 194px;
-left: 178px;
-top: 411px;
+
+
 background: url(./image/parf2.png);
 text-indent: -9999px;
 }
 .parf3{
-    position: absolute;
-width: 50%;
+  
+width: 100%;
 height: 194px;
-left: 36px;
-top:608px;
+
+
 background: url(./image/parf3.png) no-repeat;
 z-index: 1;
 text-indent: -9999px;
 }
 .parf4{
-position: absolute;
+
 width: 180px;
 height: 194px;
-left:  178px;
-top: 677px;
+
+
 background: url(./image/parf4.png);
 text-indent: -9999px;
 
 }
-.grid-container-lip{
-    display: flex;
-    justify-content: center;
-}
-
 .grid1 { 
-display: flex;
 
 background: url(./image/rek2.png) no-repeat;
 text-indent: -9999px;
-position: absolute;
-width: 309px;
-height: 152px;
-left:102px;
+background-position: center;
+height: 100%;
+left:10%;
 text-indent: -9999px;
 }
+.flex-container3{
 
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px 10px;
+
+
+}
 .flex-item1{
-position: absolute;
+justify-self: end;
 width: 180px;
 height: 194px;
-left: 36px;
-top: 315px;
 background: url(./image/lip1\ 2.jpg) no-repeat;
 object-position: center;
 text-indent: -9999px;
-z-index: 1;
+
 }
 .flex-item2{
-position: absolute;
+
 width: 180px;
 height: 194px;
-left: 178px;
-top: 411px;
 background: url(./image/lip2.jpg) no-repeat;
 text-indent: -9999px;
 }
 .flex-item3{
-position: absolute;
+
 width: 180px;
 height: 194px;
-left: 36px;
-top:608px;
+
 text-indent: -9999px;
 background: url(./image/lip3.jpg) no-repeat;
 z-index: 1;
 }
 .flex-item4{
-position: absolute;
+
 width: 180px;
 height: 194px;
-left:  178px;
-top: 677px;
+
 background: url(./image/lip4.jpg) no-repeat;
 text-indent: -9999px;
 
@@ -251,122 +240,128 @@ position: absolute;
 width: 309px;
 height: 152px;
 text-indent: -9999px;
-left: 104px;
+left: 10px;
+
 }
-h1{
-    
+h1{margin-left: 30px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
     color:white ;
     
 }
 /*laptop responsive  ----- */
  
-@media  screen and (min-width: 980px){
+@media  screen and (min-width: 580px){
 @media screen and (max-width: 1440px)
 {
-   .grid-container2{
-    width: 1440px ;
-    
-}
 header{
-    width: 1440px;
+    max-width: 1440px;
 }
 ul#meny {
     margin-left: 38%;
-    margin-top: 0.1%;
+    margin-top: 0rem;
     }
     ul#meny li {
         display:inline-flex;
      
 }
-.logo{
-    left: 43%;
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: 0.3fr 1.7fr 0.3fr;
+    grid-template-rows: repeat(2, 1fr);
+    max-width: 800px;
+    background-position: center;
+    height: 350px;
+    left: 300px;
+    margin: 0 auto;
     
 }
 
-.grid-container2{
-   
-    margin-top: 3%;
+.grid1{
     
+    background: url(./image/rek2\(2\).jpg) no-repeat center;
+    width: 800%;
+    height: 200%;
     
 }
-.grid1{
-    background: url(./image/rek2\(2\).jpg) no-repeat;
-    width: 100%;
-    height: 100%;
-    left: 20%;
+
+.rek1{
+    width: 800%;
+    height: 200%;
+    background: url(./image/rek1\ \(2\).jpg) no-repeat center;
+
 }
 
 .grid-container{
     align-self: stretch;
     background: url(./image/body\ 1.jpg);
+    background-position: center;
     display: flex;
-    justify-content: center;
-    width: 100%;
+    max-width: 100%;
 
 }
-.rek1{
-    left: 18%;
-    width: 100%;
-    height: 100%;
-    background: url(./image/rek1\ \(2\).jpg) no-repeat;
-
+.flex-container3{
+display:grid;
+grid-template-columns: repeat(4,1fr);
+gap: 10px 10px ;
+justify-content: space-between;
 }
 .flex-item1{
     background: url(./image/lip1\ 1.jpg) no-repeat;
     width: 100%;
-    height: 200%;
+    height: 100%;
     top: 608px;
     
 }
 .flex-item2{
     background: url(./image/lip2\ 2.jpg) no-repeat;
     width: 100%;
-    height: 200%;
+    height: 100%;
     top: 608px;
-    left: 27%;
+    
 
 }
 .flex-item3{
     background: url(./image/lip3\ 1.jpg) no-repeat;
     width: 100%;
-    height: 200%;
-    left: 52%;
+    height: 100%;
+   
 
 }
 .flex-item4{
     background: url(./image/lip4.jpg) no-repeat;
     width: 100%;
-    height: 200%;
+    height: 100%;
     left: 76%;
     top: 608px;
 }
 .parf1{
     background: url(./image/parf1\ 1.jpg) no-repeat;
-    width: 100%;
+   width: 100%;
     height: 100%;
-    top: 608px;
-    left: 5%;
+
+   
 }
 .parf2{
     background: url(./image/parf2\ 1.jpg) no-repeat;
     width: 100%;
-    height: 170%;
-    left: 28%;
-    top: 608px;
+    height: 100%;
+    
+   
 }
 .parf3{
    background: url(./image/parf3\ 1.jpg) no-repeat;
-    width: 140%;
-    height: 200%;
-    left: 52%;
+    width: 100%;
+    height: 100%;
+    
    
 }
 .parf4{
     background: url(./image/parf4\ 1.jpg) no-repeat;
     width: 100%;
-    height: 250%;
-    left: 75%;
-    top: 608px;
+    height: 100%;
+    
 }
 button{
     margin: 10.5rem 0 0;
@@ -382,7 +377,10 @@ button a{
 }
 
     
-
+.foo{
+    margin-top: 1rem;
+    margin-bottom: 0px;
+}
 
 
 }
